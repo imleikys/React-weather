@@ -1,0 +1,44 @@
+@import '../../../../styles/variables.scss';
+
+.this__day {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  box-shadow: $box-shadow;
+  border-radius: $border-radius;
+  background-color: $background-dark;
+
+  &_top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &_bot {
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    color: $color-grey;
+  }
+
+  &_text {
+    margin-right: 61px;
+  }
+}
+
+.temp {
+  font-weight: 500;
+  font-size: 96px;
+  color: $color-blue;
+}
+
+.day {
+  font-weight: 400;
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
