@@ -1,0 +1,27 @@
+@import '../../../../styles/variables.scss';
+
+.this__day {
+  &_info {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    box-shadow: $box-shadow;
+    border-radius: $border-radius;
+    background-color: $background-light;
+    padding: 40px;
+    flex: 1;
+
+    &_img {
+      position: absolute;
+      top: 0;
+      right: 0;
+      z-index: 1;
+    }
+
+    &_items {
+      z-index: 2;
+    }
+  }
+
+}
