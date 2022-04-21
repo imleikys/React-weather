@@ -6,7 +6,7 @@
   padding: 20px;
   box-shadow: $box-shadow;
   border-radius: $border-radius;
-  background-color: $background-light;
+  background-color: $light-background;
   margin-right: 50px;
 
   &_top {
@@ -19,7 +19,7 @@
     font-weight: 400;
     font-size: 25px;
     line-height: 30px;
-    color: $color-grey;
+    color: $base-color;
   }
 
   &_text {
@@ -30,7 +30,7 @@
 .temp {
   font-weight: 500;
   font-size: 96px;
-  color: $color-blue;
+  color: $primary-color;
 }
 
 .day {
